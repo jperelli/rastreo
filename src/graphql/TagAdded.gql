@@ -1,0 +1,7 @@
+#import "./TagFragment.gql"
+
+subscription tagAdded {
+  tagAdded {
+    ...Tag
+  }
+}

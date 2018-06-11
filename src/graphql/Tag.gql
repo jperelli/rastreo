@@ -1,0 +1,7 @@
+#import "./TagFragment.gql"
+
+query Tag ($id: String) {
+  tag (id: $id) {
+    ...Tag
+  }
+}
